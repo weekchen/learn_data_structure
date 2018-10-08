@@ -1,0 +1,1 @@
+add_executable(count_islands count_islands.cpp)
