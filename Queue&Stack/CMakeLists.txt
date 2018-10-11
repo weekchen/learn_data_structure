@@ -4,5 +4,8 @@ add_compile_options(-std=c++11)
 
 project(Queue&Stack)
 
-add_executable(open_lock open_lock/open_lock.cpp)
-add_executable(perfect_squares perfect_squares/perfect_squares.cpp)
+add_executable(circular_queue circular_queue.cpp)
+add_executable(count_islands count_islands.cpp)
+add_executable(open_lock open_lock.cpp)
+add_executable(perfect_squares perfect_squares.cpp)
+add_executable(min_stack min_stack.cpp)
