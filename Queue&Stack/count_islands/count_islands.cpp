@@ -102,7 +102,7 @@ using namespace std;
  * so beautiful codes
  */
 
-class Solution {
+class Count_Islands {
 public:
     int numIslands(vector<vector<char>>& grid) {
         if(grid.empty() || grid[0].empty()) return 0;
