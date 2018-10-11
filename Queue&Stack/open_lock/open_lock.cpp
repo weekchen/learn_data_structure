@@ -10,14 +10,6 @@
  *  Given a target representing the value of the wheels that will unlock the lock, return the minimum total number of turns required to open the lock, or -1 if it is impossible.
  **/
 
-#include "iostream"
-#include "vector"
-#include "cmath"
-#include "string"
-#include "queue"
-#include "unordered_set"
-
-using namespace std;
 /**
  * trash
  */
@@ -99,7 +91,7 @@ using namespace std;
 //                for (i = 0; i < walls.size(); i++) {
 //                    if (walls[i].x == next_node.x && walls[i].y == next_node.y) {
 //                        flg = 0;
-////                       cout << "2" << endl;
+//                       cout << "2" << endl;
 //                        break;
 //                    }
 //                    //cout << walls.size() << endl;
@@ -108,7 +100,7 @@ using namespace std;
 //                    for (i = 0; i < closed.size(); i++) {
 //                        if (closed[i].x == next_node.x && closed[i].y == next_node.y) {
 //                            flg = 0;
-////                           cout << "3" << endl;
+//                           cout << "3" << endl;
 //                            break;
 //                        }
 //                    }
@@ -133,17 +125,26 @@ using namespace std;
 //                if (flg2)
 //                    open.push_back(next_node);
 //            }
-////            cout << "1" << endl;
+//            cout << "1" << endl;
 //        }
 //        if (open.empty())
 //            return -1;
 //    }
 //};
+#include "iostream"
+#include "vector"
+//#include "cmath"
+//#include "string"
+#include "queue"
+#include "unordered_set"
 
-class Solution {
+using namespace std;
+
+class OpenLock {
 public:
     int openLock(vector<string>& deadends, string target) {
         string start = "0000";
+
         unordered_set<string> s(deadends.begin(), deadends.end());
         if(s.count(start))
             return -1;
