@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Solution {
+class ValidParrentheses {
 public:
     bool isValid(string s) {
         stack<char> p;
