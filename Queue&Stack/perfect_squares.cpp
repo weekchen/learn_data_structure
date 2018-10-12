@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Solution {
+class NumSquares {
 public:
     int numSquares(int n) {
         int num=1;
@@ -37,7 +37,7 @@ public:
 int main(){
 //    Solution* s = new Solution();
 //需手动释放内存delete s
-    Solution s;
+    NumSquares s;
 //    Solution s = Solution();
     s.numSquares(12);
 
