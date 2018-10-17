@@ -34,7 +34,7 @@ using namespace std;
  * better example from leetcode
  */
 
-class Solution {
+class DailyTemperatures {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
         vector<int> result(temperatures.size(), 0);
