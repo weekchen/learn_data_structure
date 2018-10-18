@@ -15,7 +15,7 @@ struct UndirectedGraphNode {
     UndirectedGraphNode(int x) : label(x) {};
 };
 
-class Solution {
+class CloneGraph {
 public:
     UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
         if(node == NULL)
