@@ -13,7 +13,7 @@
 
 using namespace std;
 
-class Solution {
+class ZoMatix {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {
         vector<vector<bool>> visited(matrix.size(), vector<bool>(matrix[0].size(), false));
@@ -69,7 +69,7 @@ private:
 };
 
 int main(){
-    Solution s;
+    ZoMatix s;
     vector<vector<int>> matrix{{1, 0, 1, 1, 0, 0, 1, 0, 0, 1},
                                {0, 1, 1, 0, 1, 0, 1, 0, 1, 1},
                                {0, 0, 1, 0, 1, 0, 0, 1, 0, 0},
