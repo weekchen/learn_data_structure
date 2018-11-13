@@ -1,3 +1,4 @@
+include_directories(../BinaryTree/include)
 add_executable(circular_queue circular_queue.cpp)
 add_executable(count_islands count_islands.cpp)
 add_executable(open_lock open_lock.cpp)

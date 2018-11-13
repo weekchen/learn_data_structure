@@ -1,3 +1,8 @@
+include_directories(include)
 add_executable(preorder_traversal preorder_traversal.cpp)
 add_executable(postorder_traversal postorder_traversal.cpp)
 add_executable(level_traversal level_traversal.cpp)
+add_executable(maximum_depth maximum_depth.cpp)
+add_executable(symmetric_tree symmetric_tree.cpp)
+add_executable(path_sum path_sum.cpp)
+add_executable(build_tree_ip build_tree_ip.cpp)
